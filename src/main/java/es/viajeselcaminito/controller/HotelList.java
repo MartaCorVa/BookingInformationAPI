@@ -20,7 +20,7 @@ public class HotelList {
 
     @RequestMapping(value = "/hotelList", method = RequestMethod.GET)
     @ResponseBody
-    public String getAllHotels() {
+    public static String getAllHotels() {
         
         try {
 
